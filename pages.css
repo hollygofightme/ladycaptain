@@ -1,0 +1,45 @@
+body {
+  font-family: 'Sono', sans-serif;
+  color:  rgb(144, 117, 170);
+
+}
+
+.divbody {
+  text-align: center;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 50px;
+  min-height: 700px;
+  justify-content: center;
+  z-index: 1000;
+}
+
+
+
+.spotify-button {
+  border: none;
+  background: none;
+  padding: 0;
+
+}
+
+.spotify-button:hover {
+  opacity: .8;
+  cursor: pointer;
+  transition: opacity 0.15s, padding-top 1s, padding-bottom 1s, padding-left 1s, padding-right 1s;
+}
+
+.button-div {
+  border: none;
+  background: none;
+  padding: 0;
+  border: transparent;
+  height: 80px;
+}
+
+.button-photo {
+  width: 70px;
+  height: 70px;
+}
+
